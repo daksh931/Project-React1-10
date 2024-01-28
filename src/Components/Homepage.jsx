@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 
 export default function HomePage() {
@@ -22,7 +23,9 @@ export default function HomePage() {
 
                         <button className=" font-bold supportchat bg-black px-5 py-2 rounded-md text-white">
 
-                            PLay Now!
+                           <Link to={"/game"} > 
+                                PLay Now!
+                           </Link> 
                         </button>
                         </div>
                     </div>
