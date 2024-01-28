@@ -1,15 +1,17 @@
+import Navbar from "./Navbar";
 
 export default function HomePage() {
 
 
     return (
         <>
+        <Navbar/>
             <div className="main px-1 sm:px-3">
 
                 <div className="upperPart flex flex-col sm:flex-row mt-16 px-2 sm:px-8">
 
-                    <div className="image left flex justify-start z-0 max:h-1 sm:max:h-80  ">
-                        <img src="dices.png"></img>
+                    <div className="image left flex justify-start -z-10 max:h-1 sm:max:h-80  ">
+                        <img className="z-0" src="dices.png"></img>
                     </div>
                     <div className="game right w-full sm:w-1/2 ">
 

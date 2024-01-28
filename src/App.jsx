@@ -4,6 +4,7 @@ import './App.css'
 import HomePage from './Components/Homepage';
 import GamePage from './Components/GamePage';
 
+
 function App() {
 
 
@@ -12,6 +13,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
+         
           <Route path="/game" element={<GamePage />} />
         </Routes>
       </Router>
